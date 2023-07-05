@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+li {
+  font-family: "Clash Grotesk", sans-serif;
+}
+
+h1 {
+  @apply font-medium;
+}
+
+a {
+  @apply text-blue-700 underline font-semibold;
+}
