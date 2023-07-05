@@ -61,6 +61,21 @@ const Home = () => {
             <div>
               <div>
                 <Experience
+                  company="Zap Logistics"
+                  position="Frontend Developer"
+                  startTime="Jan 2023"
+                  endTime="June 2023"
+                  location="Remote, Nigeria"
+                  duties={[
+                    "Worked on the development, deployment, and maintenance of the entire website code at Zap Delivery, using ReactJS and Tailwind CSS.",
+                    "Mentored junior ReactJS developers, doing frequent pair and mob programming sessions.",
+                    "Used data fetching tools like React Query to consume APIs effectively.",
+                  ]}
+                />
+              </div>
+
+              {/* <div>
+                <Experience
                   company="Tred Finance"
                   position="Backend Developer"
                   startTime="Sept 2022"
@@ -73,7 +88,7 @@ const Home = () => {
                     "Built our back-end services for payment, webhooks, and integrations built in Node.js (Express) and Typescript with MongoDB.",
                   ]}
                 />
-              </div>
+              </div> */}
 
               <div>
                 <Experience
