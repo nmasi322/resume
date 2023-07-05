@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="">
       <div className="bg-gray-100 p-5 md:p-10 min-h-screen">
-        <div className="bg-white shadow-sm py-10 px-7 max-md:w-full lg:w-[90%] mx-auto">
+        <div className="bg-white shadow-sm py-10 px-7 max-md:w-full xl:w-[70%] lg:w-[90%] mx-auto">
           <div className="text-center pb-6 border-b-2 border-black">
             <h1 className="text-xl md:text-3xl">
               Divinefavour Edeh, Software Developer
@@ -15,13 +15,13 @@ const Home = () => {
 
           {/* CONTACT INFORMATION  */}
           <div>
-            <div className="lg:w-[90%] lg:mx-auto max-lg:justify-between xs:flex items-center lg:justify-evenly font-normal my-3">
-              <div className="lg:flex max-xs:mt-2 space-y-2">
+            <div className="lg:w-[90%] xl:w-[70%] lg:mx-auto max-lg:justify-between xs:flex items-center lg:justify-evenly font-normal my-3">
+              <div className="lg:flex max-xs:mt-2 max-xs:space-y-2">
                 <div className="lg:border-r border-black pr-3">
                   <h2>Nigeria</h2>
                 </div>
 
-                <div className="lg:border-r border-black pr-3">
+                <div className="lg:border-r border-black px-3">
                   <a
                     className="text-black no-underline font-normal"
                     href="tel:+2347040303857"
@@ -30,7 +30,7 @@ const Home = () => {
                   </a>
                 </div>
               </div>
-              <div className="lg:flex max-xs:text-left max-lg:text-right max-xs:mt-2 space-y-2">
+              <div className="lg:flex items-center max-xs:text-left max-lg:text-right max-xs:mt-2 max-xs:space-y-2">
                 <div className="lg:border-r border-black pr-3">
                   <h2>
                     Github:{" "}
@@ -40,7 +40,7 @@ const Home = () => {
                   </h2>
                 </div>
 
-                <div className="lg:border-r border-black pr-3">
+                <div className="lg:border-r border-black px-3">
                   <h2>
                     Email:{" "}
                     <a href="mailto:edehdivine042@gmail.com">
