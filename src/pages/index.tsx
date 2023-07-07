@@ -59,7 +59,7 @@ const Home = () => {
             </div>
 
             <div>
-              <div>
+              {/* <div>
                 <Experience
                   company="Zap Logistics"
                   position="Frontend Developer"
@@ -72,9 +72,9 @@ const Home = () => {
                     "Used data fetching tools like React Query to consume APIs effectively.",
                   ]}
                 />
-              </div>
+              </div> */}
 
-              {/* <div>
+              <div>
                 <Experience
                   company="Tred Finance"
                   position="Backend Developer"
@@ -88,7 +88,7 @@ const Home = () => {
                     "Built our back-end services for payment, webhooks, and integrations built in Node.js (Express) and Typescript with MongoDB.",
                   ]}
                 />
-              </div> */}
+              </div>
 
               <div>
                 <Experience
