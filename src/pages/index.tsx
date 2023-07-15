@@ -59,21 +59,6 @@ const Home = () => {
             </div>
 
             <div>
-              {/* <div>
-                <Experience
-                  company="Zap Logistics"
-                  position="Frontend Developer"
-                  startTime="Jan 2023"
-                  endTime="June 2023"
-                  location="Remote, Nigeria"
-                  duties={[
-                    "Worked on the development, deployment, and maintenance of the entire website code at Zap Delivery, using ReactJS and Tailwind CSS.",
-                    "Mentored junior ReactJS developers, doing frequent pair and mob programming sessions.",
-                    "Used data fetching tools like React Query to consume APIs effectively.",
-                  ]}
-                />
-              </div> */}
-
               <div>
                 <Experience
                   company="Tred Finance"
@@ -86,6 +71,37 @@ const Home = () => {
                     "Provided code maintenance and system upgrades to maximize performance.",
                     "Established a routine of planned tests using Jest to achieve software functionality, glitch elimination, and update maintenance.",
                     "Built our back-end services for payment, webhooks, and integrations built in Node.js (Express) and Typescript with MongoDB.",
+                  ]}
+                />
+              </div>
+
+              <div>
+                <Experience
+                  company="Zap Logistics"
+                  position="Frontend Developer"
+                  startTime="Jan 2023"
+                  endTime="June 2023"
+                  location="Remote, Nigeria"
+                  duties={[
+                    "Worked on the development, deployment, and maintenance of the entire website code at Zap Delivery, using ReactJS and Tailwind CSS.",
+                    "Mentored junior ReactJS developers, doing frequent pair and mob programming sessions.",
+                    "Used data fetching tools like React Query to consume APIs effectively.",
+                  ]}
+                />
+              </div>
+
+              <div>
+                <Experience
+                  company="Educura"
+                  position="Software Developer Intern"
+                  startTime="Jul 2022"
+                  endTime="Oct 2022"
+                  location="Remote, Nigeria"
+                  duties={[
+                    "Initially focused on the frontend, single-handedly led the efforts to re-build our front-ends for the dashboard and onboarding screens from scratch using React, Redux, Tailwind CSS",
+                    "Built flexible backend architecture and scalable APIs consumed by other frontend web and mobile engineers deployed on Heroku. ",
+                    "Worked closely with product designers and front-end developers to build scalable APIs for the best result.",
+                    "Wrote well-detailed documentation for the frontend web and mobile engineers with Postman docs.",
                   ]}
                 />
               </div>
