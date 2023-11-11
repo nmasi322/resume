@@ -4,6 +4,7 @@ interface ExperienceProps {
   startTime: string;
   endTime: string;
   position: string;
+  companyLink?: string;
   duties: string[];
 }
 
@@ -14,12 +15,24 @@ const Experience = ({
   endTime,
   position,
   duties,
+  companyLink,
 }: ExperienceProps) => {
   return (
     <div className="py-5 border-b-2 border-b-gray-400">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-xl">{company}</h1>
+          <h1 className="text-xl">
+            {companyLink ? (
+              <a
+                className="text-black font-medium no-underline"
+                href={companyLink}
+              >
+                {company} 🔗
+              </a>
+            ) : (
+              <span>{company}</span>
+            )}
+          </h1>
           <h2 className="text-gray-500 text-lg max-xs:text-base">{position}</h2>
         </div>
         <div className="text-right">

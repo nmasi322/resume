@@ -66,6 +66,7 @@ const Home = () => {
                   startTime="Sept 2022"
                   endTime="Present"
                   location="Remote, Nigeria"
+                  companyLink="https://tred.finance/"
                   duties={[
                     "Built databases and table structures following architecture methodology for web applications",
                     "Provided code maintenance and system upgrades to maximize performance.",
@@ -77,31 +78,34 @@ const Home = () => {
 
               <div>
                 <Experience
-                  company="Zap Logistics"
-                  position="Frontend Developer"
-                  startTime="Jan 2023"
+                  company="Swapgo"
+                  position="Mobile Developer"
+                  startTime="Feb 2023"
                   endTime="June 2023"
                   location="Remote, Nigeria"
+                  companyLink="https://swapgo.co.uk/"
                   duties={[
-                    "Worked on the development, deployment, and maintenance of the entire website code at Zap Delivery, using ReactJS and Tailwind CSS.",
-                    "Mentored junior ReactJS developers, doing frequent pair and mob programming sessions.",
-                    "Used data fetching tools like React Query to consume APIs effectively.",
+                    "Worked on the development of a payments system interface for mobile applications using React Native.",
+                    "Implemented SWR to manage queries, enabling fast and efficient data fetching from external APIs.",
+                    "Utilized React Redux for state management, ensuring that the application's data was easily accessible and consistent throughout the application.",
+                    "Collaborated with other developers to design and build a scalable and maintainable codebase, ensuring the long-term success of the project.",
                   ]}
                 />
               </div>
 
               <div>
                 <Experience
-                  company="Educura"
-                  position="Software Developer Intern"
-                  startTime="Jul 2022"
-                  endTime="Oct 2022"
+                  company="Zap Technologies"
+                  position="Frontend Developer"
+                  startTime="Jan 2023"
+                  endTime="June 2023"
                   location="Remote, Nigeria"
+                  companyLink="https://zap-web-test.web.app"
                   duties={[
-                    "Initially focused on the frontend, single-handedly led the efforts to re-build our front-ends for the dashboard and onboarding screens from scratch using React, Redux, Tailwind CSS",
-                    "Built flexible backend architecture and scalable APIs consumed by other frontend web and mobile engineers deployed on Heroku. ",
-                    "Worked closely with product designers and front-end developers to build scalable APIs for the best result.",
-                    "Wrote well-detailed documentation for the frontend web and mobile engineers with Postman docs.",
+                    "Worked on the development, deployment, and maintenance of the entire website code at Zap Delivery, using ReactJS and Tailwind CSS.",
+                    "Mentored junior ReactJS developers, doing frequent pair and mob programming sessions.",
+                    "Used data fetching tools like React Query to consume APIs effectively.",
+                    "Developed a React application for the website using TypeScript and React Redux for state management.",
                   ]}
                 />
               </div>
@@ -118,6 +122,22 @@ const Home = () => {
                     "Worked with other Software Engineers to develop frontend and backend architecture that's well structured and flexible, along with the API to support it.",
                     "Installed and configured server environments for React deployments using Digital Ocean and GIT CI/CD deployments.",
                     "Worked with other Senior Software Engineers to build out microservices which boosted our efficiency by 40%.",
+                  ]}
+                />
+              </div>
+
+              <div>
+                <Experience
+                  company="Educura"
+                  position="Software Developer Intern"
+                  startTime="Jul 2022"
+                  endTime="Oct 2022"
+                  location="Remote, Nigeria"
+                  duties={[
+                    "Initially focused on the frontend, single-handedly led the efforts to re-build our front-ends for the dashboard and onboarding screens from scratch using React, Redux, Tailwind CSS",
+                    "Built flexible backend architecture and scalable APIs consumed by other frontend web and mobile engineers deployed on Heroku.",
+                    "Worked closely with product designers and front-end developers to build scalable APIs for the best result.",
+                    "Wrote well-detailed documentation for the frontend web and mobile engineers with Postman docs.",
                   ]}
                 />
               </div>
